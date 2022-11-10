@@ -1,0 +1,13 @@
+<!--pages/join/join.wxml-->
+<view class="auto">
+    <image style="width:100%;height:100%;" mode='aspectFill' src="https://img1.baidu.com/it/u=2220043289,2405035530&fm=26&fmt=auto"></image>
+</view>
+<view class="container">
+    <view class="title">加入房间</view>
+    <view class="read">
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input" id="username" type="number" maxlength="3" placeholder="请输入3位房间号"/>
+        </div>
+    </view>
+    <button bindtap="toBegin1" class="button_1">开始游戏</button>
+</view>
